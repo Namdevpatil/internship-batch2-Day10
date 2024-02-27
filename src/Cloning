@@ -1,0 +1,17 @@
+Cloning: the process creating a copy of the object 
+=======  based on existing object of the class.
+
+we use clone() method of Object class.
+
+
+steps to create copy/cloned object from existing object of an class.
+
+
+step1: class should implements Cloneable interface
+
+step2: call clone() method using existing object reference
+
+step3: declare the CloneNotSupportedException class with 
+	   where we are calling clone() method.
+
+step4: type cast to Your required class name.
